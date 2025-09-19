@@ -224,6 +224,7 @@ main() {
                 ;;
             "udp")
                  udp_scan "$TARGET" | tee "$OUTPUT_FILE"
+                ;;
             "tcp")
                 tcp_scan "$TARGET" | tee "$OUTPUT_FILE"
                 ;;
