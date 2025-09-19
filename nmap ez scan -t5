@@ -257,7 +257,8 @@ main() {
                 udp_scan "$TARGET"
                 ;;
             "tcp")
-                tcp_scan "$TARGET"    
+                tcp_scan "$TARGET"
+                ;;
             *)
                 echo -e "${RED}[ERROR] Invalid scan type${NC}"
                 exit 1
