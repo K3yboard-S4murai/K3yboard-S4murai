@@ -17,7 +17,7 @@ display_banner() {
     echo "╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝         ╚══════╝╚══════╝    ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝"
     echo -e "${NC}"
     echo -e "${YELLOW}Created by Roy Liles${NC}"
-    echo -e "${red}for use in capture the flag events only your stupidity is your own aka don't be a skid${NC}"
+    echo -e "${RED}for use in capture the flag events only your stupidity is your own aka don't be a skid${NC}"
     echo
 }
 
